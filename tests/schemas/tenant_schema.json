@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "first_name", "last_name", "email", "unit_number", "status"],
+  "properties": {
+    "id": { "type": "string" },
+    "first_name": { "type": "string" },
+    "last_name": { "type": "string" },
+    "email": { "type": "string" },
+    "unit_number": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}

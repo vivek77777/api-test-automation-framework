@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "required": ["id", "tenant_id", "issue_type", "description", "priority", "status"],
+  "properties": {
+    "id": { "type": "string" },
+    "tenant_id": { "type": "string" },
+    "issue_type": { "type": "string" },
+    "description": { "type": "string" },
+    "priority": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}
